@@ -1,0 +1,82 @@
+@media  screen  and (min-width: 767px){
+    header{
+        background-position:none;
+        text-align:center;
+        margin: auto;
+    }
+    header h1{
+        min-width: 19.56rem;
+        font-size: calc(2.15rem + 1vw);
+        margin: auto;
+    }
+    header p{
+        width: calc(65% + 1vw);
+        margin: auto;
+
+    }
+
+    .btn{
+        display: grid;
+        grid-auto-flow: column;
+        margin: auto;
+    }
+
+    button{
+        padding: 10px 20px;
+        
+    }
+
+    main{
+        
+    }
+
+    .space{
+        place-items: center;
+        margin: auto 9.52rem;
+    }
+
+    .space-1{
+        display: grid;
+        grid-template: "img text-1" 1fr "img text-2" auto / 2fr 1fr;
+    }
+
+    .space-2{
+        display: grid;
+        grid-template: "text-1 img" 1fr "text-2 img" auto / 1fr 2fr;
+        
+    }
+
+    .space-3{
+        display: grid;
+        grid-template: "text-1" auto "text-2" auto "img" auto/ auto;
+        text-align: center;
+    }
+
+    .space img{
+        grid-area: img;
+    }
+
+    .space-3 img{
+        height: 31.75rem;
+    }
+
+    .space h2{
+        grid-area: text-1;
+    }
+
+    .space p{
+        grid-area: text-2;
+    }
+    h1{
+        width:calc(87% + 1vw);
+        font-size: calc(1rem + 3vw);
+    }
+
+    h2{
+        font-size: calc(0.6rem + 2vw);
+    }
+
+    p, button{
+        font-size:calc(0.20rem + 1vw);
+    }
+}
